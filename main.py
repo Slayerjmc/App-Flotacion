@@ -37,9 +37,9 @@ with st.sidebar:
     # Slider para el caudal de Amina
     flowrate1 = st.slider(
         label='Caudal de Amina (m³/s)',
-        min_value=241.7,
-        max_value=739.3,
-        value=488.43, # Valor inicial
+        min_value=242,
+        max_value=739,
+        value=488, # Valor inicial
         step=1
     )
     st.caption("El flujo de amina tiene una relación directamente proporcional con la flotación de sílice: a mayor dosificación, más partículas de sílice se colectan y flotan, aumentando su recuperación en el concentrado.")
@@ -47,9 +47,9 @@ with st.sidebar:
     # Slider para el caudal de aire en la columna de flotación 01
     Flowrate2 = st.slider(
         label='Caudal de aire en la columna de flotación 01 (m³/s)',
-        min_value=175.85,
-        max_value=372.44,
-        value=200.13,
+        min_value=176,
+        max_value=372,
+        value=200,
         step=1
     )
     st.caption("La relación entre el flujo de aire y la concentración final de sílice es inversa, porque al aumentar el aire se favorece la flotación y, por tanto, disminuye la sílice en el concentrado.")
@@ -57,9 +57,9 @@ with st.sidebar:
     # Slider para el porcentaje de concentración de hierro
     concentration = st.slider(
         label='Concentración de hierro (%)',
-        min_value=62.51,
-        max_value=68.01,
-        value=65.04,
+        min_value=63,
+        max_value=68,
+        value=65,
         step=1
     )
     st.caption("El % de hierro es inversamente proporcional al % de sílice; cuando sube la concentración de hierro, baja el silice")
