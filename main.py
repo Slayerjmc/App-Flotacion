@@ -35,7 +35,7 @@ with st.sidebar:
     """)
 
     # Slider para el caudal de Amina
-    flowrate1 = st.slider(
+    Flowrate1 = st.slider(
         label='Caudal de Amina (m³/s)',
         min_value=242,
         max_value=739,
@@ -55,7 +55,7 @@ with st.sidebar:
     st.caption("La relación entre el flujo de aire y la concentración final de sílice es inversa, porque al aumentar el aire se favorece la flotación y, por tanto, disminuye la sílice en el concentrado.")
 
     # Slider para el porcentaje de concentración de hierro
-    concentration = st.slider(
+    Concentration = st.slider(
         label='Concentración de hierro (%)',
         min_value=63,
         max_value=68,
