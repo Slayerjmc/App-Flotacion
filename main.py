@@ -24,7 +24,7 @@ def load_model(model_path):
         st.error(f"Error: No se encontró el archivo del modelo en {model_path}. Asegúrate de que el archivo del modelo esté en el directorio correcto.")
         return None
 
-# Cargamos nuestro modelo campeón. Streamlit buscará en la ruta 'modelo_xgboost_final.joblib'.
+# Cargamos nuestro modelo campeón.
 model = load_model('modelo.joblib')
 
 # --- Barra Lateral para las Entradas del Usuario ---
